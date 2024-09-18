@@ -1,0 +1,222 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#nav-bar
+{
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,rgb(150, 33, 134),rgb(83, 29, 76));
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 30px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav a
+{
+    color:white;
+    font-weight: 600;
+}
+#banner
+{
+    background-image: linear-gradient(to right,rgb(150, 33, 134),rgb(83, 23, 75));
+    color: white;
+    padding-top:2%;
+}
+.promo
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top:80px;
+}
+.play-btn
+{
+    width: 40px;
+    margin: 20px;
+}
+#banner a{
+    color:white;
+    text-decoration: none;
+    }
+    .bottom-img
+    {
+        width: 100%;
+    }
+    #services
+    {
+        padding: 80px 0;
+    }
+    .service-img
+    {
+        width: 100px;
+        margin-top: 10px;
+    }
+    .services
+    {
+        padding: 20px;
+    }
+    .services h4
+    {
+        padding:5px;
+        margin-top: 25px;
+        text-transform: uppercase;
+    }
+    .title::before
+    {
+        content: "";
+        background: rgb(100, 6, 69);
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform:translateY(63px);
+
+    }
+    .title::after
+    {
+        content: "";
+        background: rgb(100, 6, 69);
+        height: 10px;
+        width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform:translateY(8px);
+
+    }
+
+    #services .btn-primary
+    {
+            box-shadow: none;
+            padding: 8px 25px;
+            border: none;
+            
+            background-image: linear-gradient(to right,rgb(150, 33, 134),rgb(83, 23, 75));
+            border-radius: 20px;
+    }
+
+    /* ABOUT */
+    #about
+    {
+        background:white;
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+    .about-title
+    {
+        font-size: 40px;
+        font-weight: 600px;
+        margin-top: 8%;
+    }
+    #about ul li
+    {
+        margin: 10px 0;
+    }
+    #about ul
+    {
+        margin-left: 20px;
+    }
+
+    /* testimonails */
+    #testimonails
+    {
+        margin: 160px 0;
+    }
+    .textmonials
+    {
+        border-left: 4px solid rgb(124, 29, 108);
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    .textmonials img
+    {
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        margin: 0 20px;
+    }
+    .user
+    {
+        display: inline-block;
+        font-size: 12px;
+    }
+    /* social media */
+    #social-media
+    {
+        background:#f8f9fa;
+        padding:  100px 0;
+    }
+    #social-media p
+    {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    .social-icons img
+    {
+        width: 60px;
+        transition: 0.5s;
+    }
+    .social-icons a:hover img
+    {
+        transform: translatey(-10px);
+    }
+    /* footer */
+
+    #footer{
+        background-image: linear-gradient(to right,rgb(150, 33, 134),rgb(83, 23, 75));
+        color:rgb(241, 235, 235);
+    }
+    .footer img
+    {
+        width:100%;
+    }
+    .footer-box
+    {
+        padding: 20px;
+    }
+    .footer-box img{
+        width: 120px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+    .footer-box .ri
+    {
+        margin-right: 8px;
+        font-size: 25px;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        padding-top: 7px;
+        border-radius: 2px;
+        background-image: linear-gradient(to right,rgb(150, 33, 134),rgb(83, 23, 75));
+
+    }
+    .footer-box .form-control{
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-top: 25px;
+        max-width: 240px;
+    }
+
+    .footer-box .btn-primary
+    {
+        box-shadow: none;
+        border: none;
+        border-radius: 0;
+        margin-top: 30px;
+        background-image: linear-gradient(to right,rgb(150, 33, 134),rgb(83, 23, 75));
+    }
